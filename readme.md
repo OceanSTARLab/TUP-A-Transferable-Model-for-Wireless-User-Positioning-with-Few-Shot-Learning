@@ -10,6 +10,7 @@
 ## Overview
 
 Wireless fingerprint-based positioning methods achieve high accuracy but typically require large labeled datasets and retraining in new environments. TUP addresses this limitation by learning **relative relationships** between query samples and anchor points, rather than absolute mappings.
+<div align=center> <img src="img/flow.png" width = 100%/> </div>
 
 Instead of predicting positions directly, TUP:
 - compares query fingerprints with anchor fingerprints
@@ -17,16 +18,9 @@ Instead of predicting positions directly, TUP:
 - predicts positions as a **similarity-weighted sum of anchor offsets**
 
 This design enables:
-- strong **transferability across environments**
+-  **transferability across environments**
 - effective **few-shot learning**
 
----
-
-
-
-
-
----
 
 
 
